@@ -28,7 +28,3 @@
 3. Click on the buttons to get the transcript and summary of the video.
 4. Add your notes for the video and save them for future reference.
 
-
-
-https://github.com/user-attachments/assets/b99df6b1-10e9-40d3-b6ea-e50c418fd1dc
-

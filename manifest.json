@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Video Summarizer",
+  "version": "1.0",
+  "description": "YouTube video summarizer",
+
+  "permissions": [
+    "identity",
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/appIcon.png",
+      "48": "icons/appIcon.png",
+      "128": "icons/appIcon.png"
+    }
+  },
+
+  "icons": {
+    "16": "icons/appIcon.png",
+    "48": "icons/appIcon.png",
+    "128": "icons/appIcon.png"
+  }
+}

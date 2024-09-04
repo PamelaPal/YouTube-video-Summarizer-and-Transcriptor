@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cerina</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="header">
+        <img src="icons/logo-tecosys.png" alt="Cerina Logo" class="logo">
+        <h1>Cerina YouTube summarizer</h1>
+      </div>
+      <div class="transcript-summary-container">
+        <div id="transcript" class="content-box">
+          <div class="head">
+            <h2>Transcript</h2>
+            <button class="btn-popup"><img class="open" src="icons/openIcon.png" alt="" srcset=""></button>
+          </div>
+
+          <p>Please navigate to a YouTube video to get the transcript.</p>
+        </div>
+        <div id="summary" class="content-box">
+          <div class="head">
+            <h2>Summary</h2>
+            <button class="btn-popup"><img class="open" src="icons/openIcon.png" alt="" srcset=""></button>
+          </div>
+
+          <p>Please navigate to a YouTube video to get the summary.</p> 
+
+        </div>
+
+      </div>
+      <textarea id="notes" class="content-box" placeholder="Add your notes here..."></textarea>
+      <button id="save-notes" class="btn">Save Notes</button>
+      <div id="subscription" class="subscription-box">
+        <!-- <button>Upgrade Now</button> -->
+      </div>
+    </div>
+    <div class="popup">
+
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
